@@ -1,0 +1,81 @@
+html{
+    font-size: 16px;
+    font-family: "https://fonts.googleapis.com/css2?family=Cairo&display=swap";
+
+}
+
+body{
+    background-color: darkcyan;
+}
+
+.container {
+    max-width: 450px;
+    height: auto;
+    background-color: darkseagreen;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+}
+
+.form_top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem black;
+
+}
+
+.form_top h2 {
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+h2 span{
+    color: blanchedalmond;
+}
+
+.form_reg{
+    padding: 0 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_form{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+
+.input, .btn_submit, .btn_reset{
+    background-color: burlywood;
+    padding: .5rem;
+    margin: .5rem;
+    border: none;
+    border-bottom: solid black .2rem;
+    transition: all .5s;
+}
+
+.input_focus {
+    border-bottom: solid black .2rem;
+}
+
+.btn_submit, .btn_reset{
+    width: 40%;
+    border-bottom: none;
+    background-color: cadetblue;
+    color: white;
+}
+
+.btn_reset{
+    background-color: cadetblue;
+}
+
+.btn_submit:hover {
+    background-color: white;
+}
+
+.btn_reset:hover{
+    background-color: white;
+}
